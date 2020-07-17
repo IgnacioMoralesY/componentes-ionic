@@ -1,0 +1,34 @@
+<app-header titulo="Buttons page"></app-header>
+
+<ion-content>
+  <!-- Botones normales -->
+  <ion-button size="small" expand="full">Small</ion-button>
+  <ion-button size="default" expand="full">Default</ion-button>
+  <ion-button size="large" expand="full">Large</ion-button>
+
+  <!-- Botones Router -->
+  <ion-button class="top-20" expand="full" routerLink="/alert" color="warning">
+    Alert Page
+  </ion-button>
+
+  <!-- ion-row + ion-col -->
+  <ion-row class="top-20">
+    <ion-col>
+      <ion-button expand="full" routerLink="/alert" color="warning">
+        Alert Page
+      </ion-button>
+    </ion-col>
+    <ion-col>
+      <ion-button expand="full" routerLink="/action-sheet" color="warning">
+        Action Sheet Page
+      </ion-button>
+    </ion-col>
+  </ion-row>
+
+  <!-- fill -->
+  <ion-button class="top-20" fill="clear"> Clear </ion-button>
+  <ion-button class="top-20" fill="outline"> Outline </ion-button>
+  <ion-button class="top-20" fill="solid"> Solid </ion-button>
+
+
+</ion-content>

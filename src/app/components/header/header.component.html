@@ -1,0 +1,12 @@
+<ion-header class="ion-no-border" translucent>
+  <ion-toolbar>
+
+    <!-- el slot = start es para que ubique el boton a la izquierda -->
+    <ion-buttons slot="start">
+      <!-- si no le pongo el defaul no me mostrara el boton si primero se carga esta pagina -->
+      <ion-back-button text="Volver" defaultHref="/"></ion-back-button>
+    </ion-buttons>
+
+    <ion-title class='ion-text-capitalize'>{{ titulo }}</ion-title>
+  </ion-toolbar>
+</ion-header>

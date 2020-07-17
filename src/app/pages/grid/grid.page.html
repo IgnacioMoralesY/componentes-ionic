@@ -1,0 +1,32 @@
+<app-header titulo="Grid page"></app-header>
+
+<ion-content fullscreen>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col *ngFor="let c of [1,1,1,1,1,1,1,1,1,1,1,1]; let i = index">
+        {{ i + 1 }}
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="12" size-lg="3" size-md="4" *ngFor="let c of [1,1,1,1,1,1,1,1,1,1,1,1]">
+        <ion-card>
+          <ion-img src="/assets/icon/nachon.jpg"></ion-img>
+          <ion-card-header>
+            <ion-card-subtitle> Card Subtitle </ion-card-subtitle>
+            <ion-card-title> Card Title </ion-card-title>
+            <ion-card-content>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda voluptates saepe ipsam odit! Sapiente
+              officia quae nemo distinctio voluptatum unde deleniti, soluta at perspiciatis tempora commodi consequuntur
+              impedit, ab earum!
+            </ion-card-content>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+
+
+</ion-content>
