@@ -68,5 +68,45 @@
         "icon": "refresh-circle",
         "name": "Loading",
         "redirectTo": "/loading"
+    },
+    {
+        "icon": "phone-portrait",
+        "name": "Modal",
+        "redirectTo": "/modal"
+    },
+    {
+        "icon": "tablet-portrait",
+        "name": "Popover",
+        "redirectTo": "/popover"
+    },
+    {
+        "icon": "code-working",
+        "name": "Progress Bar y Range",
+        "redirectTo": "/progress-bar"
+    },
+    {
+        "icon": "arrow-down-circle-outline",
+        "name": "Refresher",
+        "redirectTo": "/refresher"
+    },
+    {
+        "icon": "search",
+        "name": "Searchbar",
+        "redirectTo": "/serchbar"
+    },
+    {
+        "icon": "copy",
+        "name": "Segment",
+        "redirectTo": "/segment"
+    },
+    {
+        "icon": "hourglass-outline",
+        "name": "Skeleton Text",
+        "redirectTo": "/skeleton-text"
+    },
+    {
+        "icon": "albums",
+        "name": "Slides",
+        "redirectTo": "/slides"
     }
 ]
